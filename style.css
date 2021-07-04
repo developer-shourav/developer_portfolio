@@ -5,9 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+.experienceArea h2 {
+    font-size: 35px;
+}
 .my_name{color: orange;}
-section{
+.top-banner {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .about_me{
     width: 50%;
@@ -41,26 +46,64 @@ section{
 
 
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    
-}
+
 .dream_big{
     display: flex;
     margin-top:100px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 180px;
 }
 .my_secondImg{
     width: 50%;
 }
 .my_secondImg img{
     width:90%;
+    padding:5%;
 }
 .myDream{
      width: 50%;
      padding-right: 9%;
      text-align: justify;
      }
+.experience{
+    display: flex;
+    margin-bottom: 250px;
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+   
+
+}
+.my_expreieces_dis{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+    margin:0% 5%;
+    padding: 25px;
+    border-radius: 8px;
+    
+}
+.colorOrange{
+    color: orange;
+}
+#webDeveloper{
+    border-left:7px solid;
+    border-image: repeating-linear-gradient( purple, tomato);
+    border-image-slice: 1;
+
+
+}
+#cybeSecurity{
+    border-left:7px solid ;
+     border-image: repeating-linear-gradient(#0015FF, #00DAFF);
+     border-image-slice: 1;
+
+
+}
+footer p{
+    text-align: center;
+    color: #a0a0a0;
+}
