@@ -12,6 +12,7 @@ section{
 .about_me{
     width: 50%;
     padding: 5%;
+    text-align: justify;
 }
 .my_firstImage{
     width: 50%;
@@ -45,3 +46,21 @@ section{
     background-repeat: no-repeat;
     
 }
+.dream_big{
+    display: flex;
+    margin-top:100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.my_secondImg{
+    width: 50%;
+}
+.my_secondImg img{
+    width:90%;
+}
+.myDream{
+     width: 50%;
+     padding-right: 9%;
+     text-align: justify;
+     }
